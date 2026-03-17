@@ -1,0 +1,18 @@
+{
+  "name": "agent-demo",
+  "version": "1.0.0",
+  "description": "Week 1: 第一个 TypeScript Agent Demo（Function Calling）",
+  "scripts": {
+    "start": "tsx src/agent.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.54.0",
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
